@@ -1,10 +1,15 @@
-print("Whats up")
-print (5+5)
-print(10/2)
+
 name = input("Type your name?:")
-print(name)
-age = input("How old are you?:")
-print(age)
+age = int(input("How old are you?:"))
 color = input("what is your favorite color?:")
-print(color)
-print("Your name is Ej and you are 15 years old and your favorite color is blue")
+print("Hello" ,name," Your are", age, "your favorite color is "+ color + ".")
+#age comment
+    #conversation starter
+if age >= 20: 
+        print("where do you work?")
+elif age >= 14:
+    print("Bro, are you in high school?")
+
+else:
+    school = input("bro are you in school?:")
+
